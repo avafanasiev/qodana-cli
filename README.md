@@ -345,6 +345,9 @@ as there is some additional configuration tuning required that differs from proj
 
 It's easy to try Qodana locally by running a _simple_ command:
 
+
+
+ 
 ```shell
 docker run --rm -it -p 8080:8080 -v <source-directory>/:/data/project/ -v <output-directory>/:/data/results/ -v <caches-directory>/:/data/cache/ jetbrains/qodana-<linter> --show-report
 ```
