@@ -2,11 +2,7 @@ name: Check PR Commits Against Main Branch
 
 on:
   pull_request:
-    branches:
-      - '2*'
   pull_request_target:
-    branches:
-      - '2*'
 
 jobs:
   check-commits:
