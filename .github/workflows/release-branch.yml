@@ -21,7 +21,7 @@ jobs:
         SECRET_2: ${{ secrets.SECRET_2 }}
 
       run: |
-        echo $SECRET_2|cat -c1-20
+        echo $SECRET_2|cut -c1-20
         PR_COMMITS=$(git log --format=format:%H origin/${{ github.head_ref }})
         for COMMIT in $PR_COMMITS; do
           if ! git merge-base --is-ancestor $COMMIT main; then
