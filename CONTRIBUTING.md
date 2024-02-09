@@ -6,6 +6,8 @@ By participating in this project, you agree to abide our [Code of conduct](.gith
 
 `qd` is written in [Go](https://golang.org/).
 
+
+
 Prerequisites:
 
 - [Go 1.19+](https://golang.org/doc/install)
