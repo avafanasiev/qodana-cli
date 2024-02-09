@@ -12,6 +12,7 @@
 
 
 
+
 [Install](https://github.com/JetBrains/qodana-cli/releases/latest) and run:
 
 ```console
