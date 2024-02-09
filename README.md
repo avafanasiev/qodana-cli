@@ -8,6 +8,7 @@
 
 `qodana` is a simple cross-platform command-line tool to run [Qodana linters](https://www.jetbrains.com/help/qodana/docker-images.html) anywhere with minimum effort required.
 
+
 #### tl;dr
 
 [Install](https://github.com/JetBrains/qodana-cli/releases/latest) and run:
