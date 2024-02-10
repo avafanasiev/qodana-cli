@@ -8,6 +8,7 @@ By participating in this project, you agree to abide our [Code of conduct](.gith
 
 Prerequisites:
 
+
 - [Go 1.19+](https://golang.org/doc/install)
 
 Other things you might need to develop:
